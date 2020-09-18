@@ -59,7 +59,7 @@ if __name__ ==     '__main__':
             print("Distance {:.2f}".format(dist))
             i+=1
             if d > 40:
-                camera.capture("/home/pi/approach" + str(i) + ".jpg")
+                camera.capture("/home/pi/approach/" + str(i) + ".jpg")
 
             
             time.sleep(1)
